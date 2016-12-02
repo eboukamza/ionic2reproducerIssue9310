@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page One</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <div>
+
+    <div style="height: 400px; width: 100%">force scroll</div>
+
+    <ion-item>
+      <ion-label stacked>Login</ion-label>
+      <ion-input ng type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+    <button ion-button outline color="white" (click)="signIn()">Login</button>
+
+
+  </div>
+
+</ion-content>
